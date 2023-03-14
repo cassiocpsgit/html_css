@@ -1,0 +1,15 @@
+
+@charset 'UTF-8';
+
+@import url('https://fonts.googleapis.com/css2?family=Mynerve&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100&display=swap');
+
+h1 {
+    font: italic bold 3em 'Mynerve', cursive;
+}
+
+p {
+    font: bold 1em 'Work Sans', sans-serif;
+    text-indent: 15px;
+}
