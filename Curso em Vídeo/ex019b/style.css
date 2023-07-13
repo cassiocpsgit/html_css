@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+body{
+    background-color: bisque;
+}
+
+h1 {
+    background-color: aquamarine;
+}
+
+p:hover {
+    background-color: rgba(165, 42, 42, 0.527);
+}
+
+h3 > p {
+    display: none;
+}
+
+h3:hover > p {
+    display: block;
+    width: 130px;
+    background-color: blueviolet;
+}

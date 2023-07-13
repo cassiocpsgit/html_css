@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Hover</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: bisque;
+        }
+        
+        div > ul {
+            display: none;
+        }
+
+        div:hover > ul {
+            display: block;
+            color: white;
+            background-color: red;
+            width: 150px;
+            border: 1px solid black;
+            
+        }
+
+        div:hover {
+            color: red;
+            background-color: white;
+            width: 150px;            
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Exemplo de Hover</h1>
+    <p>Passe o mouse sobre o texto abaixo</p>
+    <div>Menu
+        <ul>
+            <li>Home</li>
+            <li>Services</li>
+            <li>Promo</li>
+            <li>Contact</li>
+        </ul>        
+    </div>
+</body>
+</html>

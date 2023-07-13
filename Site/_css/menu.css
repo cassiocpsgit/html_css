@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+/*Formatação de menu*/
+
+  nav#menu ul{
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: 10px;
+    left: 500px;
+  }
+  nav#menu li{
+    display: inline-block;
+    background-color: rgba(150, 40, 0, .4);
+    padding: 10px;
+  }
+  nav#menu h3{
+    display: none;
+  }
+  nav#menu li:hover{
+    background-color: #604050;
+  }
+  nav#menu a{
+    color: #000000;
+    text-decoration: none;
+  }

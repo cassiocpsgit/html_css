@@ -1,0 +1,41 @@
+
+
+@charset "UTF-8";
+
+
+body{background-image: url(_img/nature-3082832_960_720.jpg);
+    background-attachment: fixed;
+    }
+  
+  h1 {color: antiquewhite;}
+  
+  h2 {
+    color: antiquewhite;
+  }
+
+  h3 {
+    color: antiquewhite;
+  }
+
+  p {
+    color: antiquewhite;
+  }
+
+  ul {
+    color: antiquewhite;
+  }
+  ol {
+    color: antiquewhite;
+  }
+  dl {
+    color: antiquewhite;
+  }
+  pre {
+    color: antiquewhite;
+  }
+  code {
+    color: antiquewhite;
+  }
+  blockquote {
+    color: antiquewhite;
+  }

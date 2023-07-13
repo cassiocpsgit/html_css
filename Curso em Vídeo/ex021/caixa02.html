@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+
+        header {
+            background-color: aliceblue;
+            padding: 10px;
+            margin: 10px;
+            box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+            border-radius: 3px;
+        }
+
+        nav {
+            background-color: rgba(95, 95, 95, 0.986);
+            width: 250px;
+            box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.486);
+            border-radius: 3px;
+        }
+
+        nav > a {
+            text-decoration: none;
+        }
+
+        nav > a:visited {
+            color: white;            
+        }
+
+        main {
+            background-color: aliceblue;
+            padding: 10px;
+            margin: 10px;
+            box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.459);
+            border-radius: 3px;
+        }
+
+        main > section > article > p {
+            text-align: justify;
+            
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 0;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Portfólio</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">News</a>
+            <a href="#">Links</a>
+            <a href="#">Jobs</a>
+            <a href="#">Contact us</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assunto">
+            <article>
+                <h1>Bem vindo</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore voluptas commodi asperiores dolores fugit, ex voluptates quae et consectetur? Ad qui ut earum reiciendis vitae adipisci? Suscipit quidem dolores ut!</p>
+            </article>
+        </section>
+        <section id="noticias">
+            <article>
+                <h1>Confira as novidades</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae beatae accusantium eos, animi laborum aliquam eveniet quo, eum alias nostrum voluptas velit quae non, exercitationem repudiandae soluta consequatur tempora maxime.</p>
+                <aside>
+                    <p>Escrito por Lorem</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Cassio Cortez</p>
+    </footer>
+</body>
+</html>
