@@ -28,11 +28,24 @@
         .destaque {
             background-color: chartreuse ;
         }
+
+        col.c {
+            background-color: aqua;
+        }
+
+        col.d {
+            background-color: blueviolet;
+        }
     </style>
 </head>
 <body>
     <h1>Exercício de Tabela</h1>
     <table>
+        <colgroup>
+            <col class="a" span="3">
+            <col class="c">            
+            <col class="d">            
+        </colgroup>
         <caption>Cadastro</caption>
         <thead>
             <tr>
@@ -55,7 +68,7 @@
                 <td>28</td>
                 <td>Programador</td>
             </tr>
-            <tr class="destaque">
+            <tr>
                 <td>Gustavo</td>
                 <td>M</td>
                 <td>42</td>
