@@ -29,11 +29,24 @@ ul > li > a {
     font-style: italic;
 }
 
+iframe {
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+}
+
 a {
     text-decoration: none;
 }
 
-button {
-    transform: translate(100%);
+div {
+    background-color: rgb(49, 49, 49);
+    width: 80px;
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+}
+
+div a {
+    color: white;
+    font-size: 14pt;
 }
     
