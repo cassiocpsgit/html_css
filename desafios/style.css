@@ -21,6 +21,7 @@ p {
 ul {
     text-align: center;
     list-style: none;
+    transform: translate(-20px);
 }
 
 ul > li > a {

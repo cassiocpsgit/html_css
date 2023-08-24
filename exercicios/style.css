@@ -17,6 +17,7 @@ body > p {
 
 ul {    
     text-align: center;
+    transform: translate(-20px);
 }
 
 ul > li {
