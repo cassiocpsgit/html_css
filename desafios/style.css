@@ -1,0 +1,33 @@
+@charset "UTF-8";
+    
+body {
+    background: rgb(255, 255, 255) url('../img/wallpaper005.jpg')  no-repeat fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    background-size: cover;            
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: 2em;
+    color: rgb(156, 0, 0);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.507);            
+}
+
+p {
+    text-align: center;
+}
+
+ul {
+    text-align: center;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    transform: translate(100%);
+}
+    
