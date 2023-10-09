@@ -3,17 +3,20 @@ body {
     background: white url('../img/wallpaper006.jpg') no-repeat fixed;
 }
 
-h1 {
-    font-family: 'Courier New', Courier, monospace;
+body > h1 {
+    
     text-align: center;
-    font-size: 2em;
-    color: rgb(156, 0, 0);
+    font-size: 3em;
+    color: rgb(1, 24, 102);
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.507);            
 }
 
-h2 {
+body > h2 {
+    font-family: 'Courier New', Courier, monospace;
     text-align: center;
+    color: rgb(1, 24, 102);
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    padding: 10px;
 }
 
 body > p {
@@ -41,17 +44,15 @@ iframe {
 }
 
 div {
-    background-color: rgb(49, 49, 49);
-    width: 80px;
-    margin: auto;
-    border-radius: 5px;
-    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+div.row {
+    margin: 40px;
 }
 
 div a {
-    color: white;
-    font-size: 14pt;
-    text-decoration: none;
+    
 }
 
 footer p {
