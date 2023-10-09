@@ -1,54 +1,66 @@
-@charset "UTF-8";
-    
 body {
-    background: rgb(255, 255, 255) url('../img/wallpaper005.jpg')  no-repeat fixed;
     font-family: Arial, Helvetica, sans-serif;
-    background-size: cover;            
+    background: white url('../img/wallpaper006.jpg') no-repeat fixed;
 }
 
-h1 {
+body > h1 {
+    
+    text-align: center;
+    font-size: 3em;
+    color: rgb(1, 24, 102);
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);            
+}
+
+body > h2 {
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
-    font-size: 2em;
-    color: rgb(156, 0, 0);
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.507);            
-}
-
-h2 {
-    text-align: center;
+    color: rgb(1, 24, 102);
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    padding: 10px;
 }
 
-ul {
+body > p {
     text-align: center;
-    list-style: none;
-    transform: translate(-20px);
-}
-
-ul > li > a {
-    font-size: 20pt;
-    font-family: Arial, Helvetica, sans-serif;
-    font-style: italic;
 }
 
 iframe {
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
 }
 
-a {
-    text-decoration: none;
+div {
+    text-align: center;
 }
 
-div {
+div.row {
+    margin: 40px;
+}
+
+div.button {
     background-color: rgb(49, 49, 49);
-    width: 80px;
+    width: 90px;
+    padding: 3px;    
     margin: auto;
+    margin-bottom: 30px;
     border-radius: 5px;
     box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
 }
 
-div a {
+div.button > a {
     color: white;
     font-size: 14pt;
+    text-decoration: none;
 }
-    
+
+div.button:hover {
+    background-color: rgba(49, 49, 49, 0.801);
+    color: white;
+    text-decoration: none;
+}
+
+footer p {
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    background-color: rgba(255, 254, 254, 0.226);
+    padding: 5px;    
+}
