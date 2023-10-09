@@ -38,8 +38,9 @@ div.row {
 div.button {
     background-color: rgb(49, 49, 49);
     width: 90px;
-    padding: 3px;
+    padding: 3px;    
     margin: auto;
+    margin-bottom: 30px;
     border-radius: 5px;
     box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
 }
