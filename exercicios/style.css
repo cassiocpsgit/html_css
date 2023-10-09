@@ -35,20 +35,22 @@ div.row {
     margin: 40px;
 }
 
-button {
+div.button {
     background-color: rgb(49, 49, 49);
     width: 90px;
-    padding: 5px;
+    padding: 3px;
     margin: auto;
     border-radius: 5px;
     box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+}
+
+div.button > a {
     color: white;
     font-size: 14pt;
     text-decoration: none;
-    transform: translate(750%);
 }
 
-button:hover {
+div.button:hover {
     background-color: rgba(49, 49, 49, 0.801);
     color: white;
     text-decoration: none;
