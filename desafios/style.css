@@ -37,7 +37,7 @@ div.row {
 
 div.button {
     background-color: rgb(49, 49, 49);
-    width: 90px;
+    width: 100px;
     padding: 3px;    
     margin: auto;
     margin-bottom: 30px;
@@ -61,6 +61,6 @@ footer p {
     font-family: 'Courier New', Courier, monospace;
     color: rgb(0, 0, 0);
     text-align: center;
-    background-color: rgba(255, 254, 254, 0.226);
+    background-color: rgba(95, 95, 95, 0.226);
     padding: 5px;    
 }
